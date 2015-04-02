@@ -1,0 +1,40 @@
+package problem_solve;
+import java.util.Scanner;
+/**
+ *
+ * @author aarifin
+ */
+public class Problem_solve {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        int input = scan.nextInt();
+        int x,y;
+        for(x=1;x<=100;x++)
+        {
+            for(y = x-1;y<x;y++)
+            {
+                
+                if(input == (x*x*x - y*y*y))
+                {
+                    System.out.println("the value of x is --> "+x+" and the value of y is ---> "+y);
+                    System.exit(0);
+                }
+                else if(input < (x*x*x - y*y*y))
+                {
+                    System.out.println("no solution");
+                    System.exit(0);
+                }
+                else {
+                }
+                
+            }
+        }
+        
+    }
+    
+}
