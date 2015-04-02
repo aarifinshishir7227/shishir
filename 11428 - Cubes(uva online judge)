@@ -1,10 +1,10 @@
-package problem_solve;
+
 import java.util.Scanner;
 /**
  *
  * @author aarifin
  */
-public class Problem_solve {
+public class Problem_11428_uva_online_judge {
 
     /**
      * @param args the command line arguments
