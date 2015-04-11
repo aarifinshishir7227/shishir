@@ -52,8 +52,9 @@ public class Memory_game {
                JOptionPane.showMessageDialog(null, "ur assumption is false ---> better luck next time ");
                System.exit(0);
            }
-           JOptionPane.showMessageDialog(null, "ur memory is perfect ");
+           
         }
+        JOptionPane.showMessageDialog(null, "ur memory is perfect ");
     }
 
 }
